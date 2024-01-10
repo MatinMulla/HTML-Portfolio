@@ -1,0 +1,154 @@
+/* Reset some default styles */
+*{
+  box-sizing: border-box;
+}
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", "san-serif";
+  
+}
+
+/* Header Styles */
+header {
+  background-color: #242424;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* About Section Styles */
+.about {
+  background: linear-gradient(180deg, #3f5efb 0%, #fc466b 100%);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.profile-img img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.about-details {
+  margin-top: 30px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #242424;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Achievements Section Styles */
+.services {
+  background: linear-gradient(180deg, #3f5efb 0%, #fc466b 100%);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.my-skills {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.skill {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+  background: linear-gradient(180deg, #3f5efb 0%, #fc466b 100%);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.portfolio-item {
+  display: flex;
+  margin: 40px 0;
+}
+
+.portfolio-img img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.portfolio-description {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Experience Section Styles */
+.experience {
+  background: linear-gradient(180deg, #3f5efb 0%, #fc466b 100%);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+}
+
+.date {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #242424;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+/* Scroll Up Button Styles */
+.up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 24px;
+}
+a{
+text-decoration: none;
+color: #e0e0e0;
+}
+
+.my-marquee{
+  background-color: red;
+}
